@@ -52,6 +52,10 @@ $.get('http://localhost:8080/webprojectdemo/doecharts').done(function (data) {
     });
 });
 
+myChartBar.on('click',function (params) {
+    console.log(params);
+});
+
 //loading 动画
 
 
